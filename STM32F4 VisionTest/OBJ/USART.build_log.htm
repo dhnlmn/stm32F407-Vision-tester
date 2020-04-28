@@ -1,0 +1,53 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.23.0.0
+Copyright (C) 2017 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 邓 浩南, 11, LIC=IC930-BS29F-D34M3-AKW3G-JDCA2-6XKL1
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.23
+Toolchain Path:  D:\MDK\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 4 (build 422)
+Assembler:       Armasm.exe V5.06 update 4 (build 422)
+Linker/Locator:  ArmLink.exe V5.06 update 4 (build 422)
+Library Manager: ArmAr.exe V5.06 update 4 (build 422)
+Hex Converter:   FromElf.exe V5.06 update 4 (build 422)
+CPU DLL:         SARMCM3.DLL V5.23
+Dialog DLL:      DCM.DLL V1.15.0.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.18.0
+Dialog DLL:      TCM.DLL V1.27.0.0
+ 
+<h2>Project:</h2>
+D:\MDK\JQ8X00组合播报STM32F4\USER\USART.uvprojx
+Project File Date:  07/28/2019
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 4 (build 422)', folder: 'D:\MDK\ARM\ARMCC\Bin'
+Build target 'USART'
+compiling main.c...
+main.c(31): warning:  #223-D: function "usart2_init" declared implicitly
+  	usart2_init(115200);
+main.c(36): warning:  #223-D: function "u2_printf" declared implicitly
+  	u2_printf("{\"method\": \"update\",\"gatewayNo\": \"01\",\"userkey\": \"95276e9a67ea4c8ea486ec2bee74713c\"}&^!\r\n");
+main.c(67): warning:  #223-D: function "Gesture_test" declared implicitly
+  		Gesture_test();
+main.c(17): warning:  #550-D: variable "t"  was set but never used
+  {int t,d; 
+main.c: 4 warnings, 0 errors
+linking...
+Program Size: Code=52236 RO-data=183068 RW-data=920 ZI-data=1221808  
+FromELF: creating hex file...
+"..\OBJ\USART.axf" - 0 Error(s), 4 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_USART
+  D:\MDK\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:05
+</pre>
+</body>
+</html>
